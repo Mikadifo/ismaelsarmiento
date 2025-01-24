@@ -13,7 +13,7 @@ const sansation = localFont({
     { path: "./../fonts/Sansation_Bold.ttf", weight: "700", style: "normal" },
   ],
   src: [
-    { path: "./../fonts/Sansation_Light.ttf", weight: "200", style: "normal" },
+    { path: "./../fonts/Sansation_Light.ttf", weight: "300", style: "normal" },
   ],
 });
 
