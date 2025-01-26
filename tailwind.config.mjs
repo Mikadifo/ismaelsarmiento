@@ -11,6 +11,8 @@ export default {
         white: "var(--white)",
         darkBlue: "var(--dark-blue)",
         lightBlue: "var(--light-blue)",
+        lightBlue8: "var(--light-blue-8)",
+        darkBlue12: "var(--dark-blue-12)",
       },
       backgroundImage: {
         gradient: "var(--gradient)",

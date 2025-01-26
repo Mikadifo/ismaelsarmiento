@@ -6,6 +6,8 @@
   --white: #f8fbfc;
   --dark-blue: #061d3d;
   --light-blue: #033353;
+  --light-blue-8: rgba(3, 51, 83, 0.08);
+  --dark-blue-12: rgba(6, 29, 61, 0.12);
   --gradient: linear-gradient(
     180deg,
     rgb(4.679733412340283, 71.7154973745346, 116.40600889921188) 0%,
