@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="px-8 pb-16 pt-8">
-      <h3 className="text-center font-bold text-xl mb-4">Acerca de mí</h3>
+      <h3 className="text-center font-bold text-xl mb-8">Acerca de mí</h3>
       <p className="text-base">
         Hola mucho gusto, mi nombre es Ismael Sarmiento y tengo 28 años de edad.
         Llevo desempeñando mi profesión de psicólogo clínico desde hace más de 4

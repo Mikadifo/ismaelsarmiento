@@ -24,18 +24,7 @@ const services = [
   {
     id: "terapia_presencial",
     label: "Terapia Presencial",
-    icon: (
-      <FontAwesomeIcon
-        icon={faHandshakeAngle}
-        size={SIZE}
-        style={{ background: "var(--gradient)" }}
-      />
-    ),
-  },
-  {
-    id: "addicciones",
-    label: "Addicciones",
-    icon: <FontAwesomeIcon icon={faBottleDroplet} size={SIZE} />,
+    icon: <FontAwesomeIcon icon={faHandshakeAngle} size={SIZE} />,
   },
   {
     id: "violencia_genero",
@@ -63,14 +52,19 @@ const services = [
     icon: <FontAwesomeIcon icon={faHeartCrack} size={SIZE} />,
   },
   {
-    id: "ansiedad_depresion",
-    label: "Ansiedad y Depresión",
-    icon: <FontAwesomeIcon icon={faSadTear} size={SIZE} />,
-  },
-  {
     id: "problemas_conductuales",
     label: "Problemas Conductuales",
     icon: <FontAwesomeIcon icon={faFaceAngry} size={SIZE} />,
+  },
+  {
+    id: "ansiedad_depresion",
+    label: "Ansiedad, Depresión",
+    icon: <FontAwesomeIcon icon={faSadTear} size={SIZE} />,
+  },
+  {
+    id: "addicciones",
+    label: "Addicciones",
+    icon: <FontAwesomeIcon icon={faBottleDroplet} size={SIZE} />,
   },
 ];
 
