@@ -1,3 +1,4 @@
+import About from "./components/About";
 import CTA from "./components/CTA";
 import Navbar from "./components/Navbar";
 import Tilt from "./components/Tilt";
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <CTA />
       <Tilt />
+      <About />
     </>
   );
 };

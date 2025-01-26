@@ -43,4 +43,5 @@
 
 body {
   font-family: "sansation" sans-serif;
+  background: var(--white);
 }
