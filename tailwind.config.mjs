@@ -9,6 +9,7 @@ export default {
     extend: {
       colors: {
         white: "var(--white)",
+        white18: "var(--white-18)",
         darkBlue: "var(--dark-blue)",
         lightBlue: "var(--light-blue)",
         lightBlue8: "var(--light-blue-8)",

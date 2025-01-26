@@ -4,6 +4,7 @@
 
 :root {
   --white: #f8fbfc;
+  --white-18: rgba(248, 251, 252, 0.18);
   --dark-blue: #061d3d;
   --light-blue: #033353;
   --light-blue-8: rgba(3, 51, 83, 0.08);
