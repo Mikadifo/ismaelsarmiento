@@ -5,7 +5,11 @@ const Footer = () => {
       <br />
       <span>
         Powered by{" "}
-        <a href="mikadifo.com" className="underline underline-offset-4">
+        <a
+          href="https://mikadifo.com"
+          target="_blank"
+          className="underline underline-offset-4"
+        >
           Mikadifo.com
         </a>
       </span>
