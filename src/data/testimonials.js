@@ -1,45 +1,18 @@
 const testimonials = [
-  { id: "video-1", video: "/testVideo.mp4" },
   {
     id: "commentary-1",
-    author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu consectetur sollicitudin. ipsum non varius vitae nibh dignissim, lobortis, non odio. ipsum non varius vitae nibh dignissim, lobortis, non odio.",
+    author: "María Granados",
+    text: "Gracias a las sesiones, logré entender y manejar la ansiedad que me estaba afectando desde hace años. El apoyo y la orientación recibidos fueron clave para recuperar mi bienestar emocional.",
   },
   {
     id: "commentary-2",
-    author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu e nibh dignissim, lobortis, non odio.",
+    author: "Carlos Peralta",
+    text: "Acudí en un momento muy difícil de mi vida y encontré un espacio seguro para hablar de mis problemas. Poco a poco, con las herramientas que aprendí, volví a sentir confianza en mí mismo.",
   },
   {
     id: "commentary-3",
     author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu e nibh dignissim, lobortis, non odio.",
-  },
-  {
-    id: "commentary-4",
-    author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu e nibh dignissim, lobortis, non odio.",
-  },
-  {
-    id: "commentary-5",
-    author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu e nibh dignissim, lobortis, non odio.",
-  },
-  { id: "video-2", video: "" },
-  {
-    id: "commentary-6",
-    author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu consectetur sollicitudin. ipsum non varius vitae nibh dignissim, lobortis, non odio. ipsum non varius vitae nibh dignissim, lobortis, non odio.",
-  },
-  {
-    id: "commentary-7",
-    author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu e nibh dignissim, lobortis, non odio.",
-  },
-  {
-    id: "commentary-8",
-    author: "Paciente Anónimo",
-    text: "Commodo Praesent sollicitudin. ipsum non eu e nibh dignissim, lobortis, non odio.",
+    text: "Al principio estaba escéptica, pero con cada sesión me sentía más comprendida y acompañada. Hoy puedo decir que soy una persona más resiliente y en paz conmigo misma.",
   },
 ];
 
