@@ -1,11 +1,10 @@
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-//TODO: add instegram brand icon
 
 const Contact = () => {
   return (
@@ -15,13 +14,21 @@ const Contact = () => {
         <div className="flex flex-col gap-4 max-w-[1024px]">
           <div className="flex gap-3">
             <FontAwesomeIcon icon={faLocationDot} size="xl" />
-            <a href="#TODO" className="underline underline-offset-4">
+            <a
+              href="https://maps.app.goo.gl/wjDXoPmXkvKUp1H88"
+              target="_blank"
+              className="underline underline-offset-4"
+            >
               Calle El Oro y del Batán (Edificio Medicenter)
             </a>
           </div>
           <div className="flex gap-3">
             <FontAwesomeIcon icon={faPhone} size="xl" />
-            <a href="#TODO" className="underline underline-offset-4">
+            <a
+              href="https://wa.me/593990094848"
+              target="_blank"
+              className="underline underline-offset-4"
+            >
               +593 99 009 4848
             </a>
           </div>
@@ -35,8 +42,12 @@ const Contact = () => {
             </a>
           </div>
           <div className="flex gap-3">
-            <FontAwesomeIcon icon={faLocationDot} size="xl" />
-            <a href="#TODO" className="underline underline-offset-4">
+            <FontAwesomeIcon icon={faInstagramSquare} size="xl" />
+            <a
+              href="https://www.instagram.com/psic.ismaelsar/"
+              target="_blank"
+              className="underline underline-offset-4"
+            >
               /psic.ismaelsar
             </a>
           </div>
