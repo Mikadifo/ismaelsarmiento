@@ -17,15 +17,50 @@ const sansation = localFont({
   ],
 });
 
-export const metadata = {
-  title: "Psicólogo Ismael Sarmiento",
-  description:
-    "Hola mucho gusto, mi nombre es Ismael Sarmiento y tengo 28 años de edad. Llevo desempeñando mi profesión de psicólogo clínico desde hace más de 4 años. La verdad ha sido una experiencia gratificante el poder brindar una orientación y apoyo a todas aquellas personas que están pasando por momentos difíciles en su vida. La experiencia y los casos que he abordado han sido mi mayor fuente de aprendizaje hasta aquí. Tengo muchos deseos y ambición por seguir creciendo profesionalmente. Cada día es una experiencia y un aprendizaje más para mi.",
-};
+export function generateMetadata() {
+  return {
+    title:
+      "Ismael Sarmiento | Psicólogo en Cuenca, Ecuador | Terapia y Bienestar Emocional",
+    description:
+      "Ismael Sarmiento, psicólogo en Cuenca, Ecuador. Ofrezco terapia psicológica personalizada para el bienestar emocional, manejo del estrés, ansiedad, depresión y más. ¡Agenda tu cita hoy!",
+    keywords:
+      "psicólogo Cuenca, terapia psicológica, bienestar emocional, ansiedad, depresión, estrés, psicólogo en Ecuador, Ismael Sarmiento, psicólogos en Cuenca Ecuador",
+    authors: [{ name: "Ismael Sarmiento" }],
+    other: {
+      "geo.region": "EC-AZ",
+      "geo.placename": "Cuenca",
+      "geo.position": "-2.90055;-79.00453",
+      ICBM: "-2.90055, -79.00453",
+      language: "Spanish",
+    },
+    icons: {
+      icon: "/favicon.ico",
+    },
+    alternates: {
+      canonical: "https://ismaelsarmiento.com/",
+    },
+    openGraph: {
+      title:
+        "Ismael Sarmiento | Psicólogo en Cuenca, Ecuador | Terapia y Bienestar Emocional",
+      description:
+        "Ismael Sarmiento, psicólogo en Cuenca, Ecuador. Ofrezco terapia psicológica personalizada para el bienestar emocional, manejo del estrés, ansiedad, depresión y más. ¡Agenda tu cita hoy!",
+      type: "website",
+      url: "https://ismaelsarmiento.com",
+      siteName: "Psicólogo Ismael Sarmiento",
+      images: [
+        {
+          url: "https://ismaelsarmiento.com/portrait.png",
+          alt: "Ismael Sarmiento | Psicólogo en Cuenca, Ecuador | Terapia y Bienestar Emocional",
+        },
+      ],
+      locale: "es_EC",
+    },
+  };
+}
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${sansation.className} antialiased`}>{children}</body>
     </html>
   );
