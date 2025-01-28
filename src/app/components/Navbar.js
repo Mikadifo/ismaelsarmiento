@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="flex place-content-between bg-lightBlue w-screen py-2 px-8 border-b border-solid border-white">
+    <div className="flex place-content-between bg-lightBlue py-2 px-8 border-b border-solid border-white">
       <a href="/">
         <img src="/icon.svg" alt="Ismael Sarmiento Logo" className="w-8" />
       </a>
