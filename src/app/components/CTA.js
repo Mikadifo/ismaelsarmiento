@@ -14,7 +14,10 @@ const CTA = () => {
           Psicólogo Clínico
         </h2>
       </div>
-      <a className="bg-white font-bold text-2xl py-1 px-4 rounded-lg">
+      <a
+        href="#contact"
+        className="bg-white font-bold text-2xl py-1 px-4 rounded-lg"
+      >
         Contáctame
       </a>
     </div>

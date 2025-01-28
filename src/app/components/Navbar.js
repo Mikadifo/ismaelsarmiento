@@ -5,7 +5,7 @@ const Navbar = () => {
         <img src="/icon.svg" alt="Ismael Sarmiento Logo" className="w-8" />
       </a>
       <a
-        href="#"
+        href="#contact"
         className="bg-transparent border border-solid rounded text-white font-bold text-base px-3 py-1 hover:bg-white hover:text-darkBlue"
       >
         Contactar

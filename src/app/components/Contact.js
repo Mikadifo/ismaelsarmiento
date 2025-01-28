@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   return (
-    <div className="px-8 py-16 bg-lightBlue text-white text-base">
+    <div id="contact" className="px-8 py-16 bg-lightBlue text-white text-base">
       <h3 className="text-center font-bold text-xl mb-8">Contacto</h3>
       <div className="flex justify-center">
         <div className="flex flex-col gap-4 max-w-[1024px]">
