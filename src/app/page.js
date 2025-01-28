@@ -1,6 +1,6 @@
 import About from "./components/About";
 import CTA from "./components/CTA";
-import Contacto from "./components/Contacto";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
@@ -16,7 +16,7 @@ const Home = () => {
       <About />
       <Services />
       <Testimonials />
-      <Contacto />
+      <Contact />
       <Footer />
     </>
   );
