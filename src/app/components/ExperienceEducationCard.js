@@ -21,8 +21,10 @@ const ExperienceEducationCard = ({
           </div>
         </div>
         <ul className="list-disc list-inside">
-          {item.functions.map((functionItem) => (
-            <li className="text-base">{functionItem}</li>
+          {item.functions.map((functionItem, index) => (
+            <li className="text-base" key={index}>
+              {functionItem}
+            </li>
           ))}
         </ul>
       </div>

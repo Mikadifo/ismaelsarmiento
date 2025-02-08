@@ -1,5 +1,6 @@
 const experience = [
   {
+    id: "cetad",
     logo: "CETAD.png",
     institution: "CETAD AMOR Y VIDA",
     date: "Diciembre 2019 - actualidad",
@@ -12,6 +13,7 @@ const experience = [
     ],
   },
   {
+    id: "cetad2",
     logo: "CETAD.png",
     institution: "CENTERAVID ADULTOS",
     date: "Noviembre 2020 - Noviembre 2022",
@@ -24,6 +26,7 @@ const experience = [
     ],
   },
   {
+    id: "comvitec",
     logo: "comvitec.png",
     institution: "COMVITEC EMPRESA DE SEGURIDAD",
     date: "Septiembre 2021 - junio 2022",

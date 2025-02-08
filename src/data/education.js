@@ -1,11 +1,13 @@
 const education = [
   {
+    id: "ucuenca",
     logo: "ucuenca.png",
     institution: "Universidad de Cuenca",
     date: "2014 - 2019",
     functions: ["Título de Psicólogo Clínico"],
   },
   {
+    id: "uotavalo",
     logo: "uotavalo.png",
     institution: "Universidad de Otavalo – CLEU",
     date: "2023",
@@ -14,6 +16,7 @@ const education = [
     ],
   },
   {
+    id: "viu",
     logo: "viu.png",
     institution: "Universidad Internacional de Valencia",
     date: "2023 - 2024",
