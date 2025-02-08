@@ -38,7 +38,7 @@ const ExperienceEducation = ({ section }) => {
         section === "edu" ? "bg-white text-darkBlue" : "bg-lightBlue text-white"
       }`}
     >
-      <div className="px-8 py-16 w-[1024px]">
+      <div className="px-8 py-16 max-w-[1024px]">
         <h3 className="text-center font-bold text-xl mb-8">
           {section === "edu" ? "Educación" : "Experiencia Profesional"}
         </h3>
