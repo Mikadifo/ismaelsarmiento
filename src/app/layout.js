@@ -24,7 +24,7 @@ export function generateMetadata() {
     description:
       "Ismael Sarmiento, psicólogo en Cuenca, Ecuador. Ofrezco terapia psicológica personalizada para el bienestar emocional, manejo del estrés, ansiedad, depresión y más. ¡Agenda tu cita hoy!",
     keywords:
-      "psicólogo Cuenca, terapia psicológica, bienestar emocional, ansiedad, depresión, estrés, psicólogo en Ecuador, Ismael Sarmiento, psicólogos en Cuenca Ecuador",
+      "psicólogo Cuenca, terapia psicológica, bienestar emocional, ansiedad, depresión, estrés, psicólogo en Ecuador, Ismael Sarmiento, psicólogos en Cuenca Ecuador, psicólogos en Cuenca, psicología en Cuenca, consulta psicológica en Cuenca, terapia en Cuenca, psicoterapia en Cuenca, atención psicológica en Cuenca, psicología clínica en Cuenca, mejor psicólogo en Cuenca, consulta con Ismael Sarmiento",
     authors: [{ name: "Ismael Sarmiento" }],
     other: {
       "geo.region": "EC-AZ",
